@@ -1,2 +1,5 @@
-# Ignore compiled executables
+# Ignore compiled executables and dependencies
 */target/    
+
+# Do not track dependency lock files
+*/Cargo.lock
